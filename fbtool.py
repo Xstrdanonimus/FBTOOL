@@ -63,7 +63,7 @@ logo = """
 
 # load #
 def load():
-	tiload = ['.   ','..  ','... ']
+	tiload = ['.   ','..  ','... ']6
 	for o in tiload:
 		print("\r\033[1;91m[●] \033[1;92mLoading \033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 
